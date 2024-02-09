@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.example.noteapp"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.noteapp"
@@ -76,4 +76,5 @@ dependencies {
     // Kotlin
     implementation("androidx.navigation:navigation-fragment-ktx:$nav_version")
     implementation("androidx.navigation:navigation-ui-ktx:$nav_version")
+
 }
